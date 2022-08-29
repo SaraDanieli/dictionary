@@ -6,7 +6,6 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert(keyword);
   }
 
   function getValue(event) {
@@ -15,7 +14,7 @@ export default function Dictionary() {
   }
 
   return (
-    <div>
+    <div className="Dictionary">
       <form onSubmit={search}>
         <input type="search" onChange={getValue} />
       </form>
