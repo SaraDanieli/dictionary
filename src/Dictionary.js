@@ -8,6 +8,7 @@ export default function Dictionary() {
   let [result, setResult] = useState(null);
 
   function handleResponse(response) {
+    console.log(response);
     setResult(response.data[0]);
   }
 
