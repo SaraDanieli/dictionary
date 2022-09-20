@@ -21,3 +21,10 @@ body {
   color: #850e35;
   margin-right: 15px;
 }
+
+.App footer {
+  text-align: center;
+  font-size: 13px;
+  margin: 20px 0 50px 0;
+  opacity: 0.7;
+}

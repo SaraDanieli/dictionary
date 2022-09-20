@@ -20,6 +20,14 @@ function App() {
         <main>
           <Dictionary defaultKeyword="friend" />
         </main>
+        <footer>
+          This project was coded by{" "}
+          <a href="https://www.linkedin.com/in/sara-danieli-55399b213/">me</a>{" "}
+          and it is open-sourced on{" "}
+          <a href="https://github.com/SaraDanieli/dictionary">GitHub</a> and
+          hosted on{" "}
+          <a href="https://dashing-rugelach-af4053.netlify.app/">Netlify</a>
+        </footer>
       </div>
     </div>
   );
