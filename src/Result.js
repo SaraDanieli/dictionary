@@ -14,10 +14,10 @@ export default function Result(props) {
             return (
               <div key={index}>
                 <Phonetic phonetic={phonetic} />
-                <Photos photos={props.photos} />
               </div>
             );
           })}
+          <Photos photos={props.photos} />
         </section>
 
         {props.data.meanings.map(function (meaning, index) {

@@ -18,7 +18,7 @@ function App() {
           </h1>
         </header>
         <main>
-          <Dictionary defaultKeyword="sea" />
+          <Dictionary defaultKeyword="friend" />
         </main>
       </div>
     </div>
