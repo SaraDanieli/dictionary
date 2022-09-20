@@ -1,0 +1,8 @@
+.Synonyms div {
+  display: inline-block;
+  margin: 5px 10px;
+  font-size: 14px;
+  border: 1px solid#ddd;
+  padding: 5px 10px;
+  border-radius: 20px;
+}

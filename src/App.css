@@ -1,5 +1,9 @@
+body {
+  background-color: #fff5e4;
+}
+
 .App {
-  max-width: 50%;
+  max-width: 55%;
   margin: auto;
 }
 
