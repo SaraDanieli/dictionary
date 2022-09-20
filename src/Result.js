@@ -2,6 +2,7 @@ import React from "react";
 import Meaning from "./Meaning";
 import Phonetic from "./Phonetic";
 import "./result.css";
+import Photos from "./Photos";
 
 export default function Result(props) {
   if (props.data) {
@@ -13,6 +14,7 @@ export default function Result(props) {
             return (
               <div key={index}>
                 <Phonetic phonetic={phonetic} />
+                <Photos photos={props.photos} />
               </div>
             );
           })}

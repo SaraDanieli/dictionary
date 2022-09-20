@@ -2,10 +2,9 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-  console.log(props.photos);
   if (props.photos) {
     return (
-      <section className="Photos">
+      <div className="Photos">
         <div className="row">
           {props.photos.map(function (photo, index) {
             return (
@@ -21,7 +20,7 @@ export default function Photos(props) {
             );
           })}
         </div>
-      </section>
+      </div>
     );
   } else {
     return null;
